@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+	<h2>Do you want to LogIn again?</h2>
+	<div class="border-top pt-3">
+		<a href="{% url 'login' %}">LogIn</a>
+	</div>
+{% endblock content %}
+
